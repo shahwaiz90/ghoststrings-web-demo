@@ -49,6 +49,18 @@ function ShowcaseApp() {
           <span className="font-extrabold text-xl tracking-tight bg-gradient-to-r from-white via-slate-100 to-blue-400 bg-clip-text text-transparent">
             GhostStrings <span className="text-blue-500 font-medium text-sm ml-1 px-2 py-0.5 rounded-full bg-blue-500/10 border border-blue-500/20">AI</span>
           </span>
+          <a
+            href="https://www.npmjs.com/package/@ghoststrings/ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-xs font-mono bg-slate-950/80 border border-slate-850 text-blue-400 hover:text-slate-200 px-3 py-1.5 rounded-xl transition-all"
+          >
+            <svg width="12" height="12" viewBox="0 0 256 256" style={{ minWidth: '12px' }}>
+              <path d="M0 0h256v256H0z" fill="#CB3837"/>
+              <path d="M48 48h160v160h-32V80h-48v128H48z" fill="#FFF"/>
+            </svg>
+            @ghoststrings/ai
+          </a>
         </div>
 
         <div className="flex items-center gap-4">
