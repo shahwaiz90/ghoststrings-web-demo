@@ -47,7 +47,7 @@ function ShowcaseApp() {
             👻
           </div>
           <span className="font-extrabold text-xl tracking-tight bg-gradient-to-r from-white via-slate-100 to-blue-400 bg-clip-text text-transparent">
-            GhostStrings <span className="text-blue-500 font-medium text-sm ml-1 px-2 py-0.5 rounded-full bg-blue-500/10 border border-blue-500/20">AI</span>
+            <GhostText id="app_name" /> <span className="text-blue-500 font-medium text-sm ml-1 px-2 py-0.5 rounded-full bg-blue-500/10 border border-blue-500/20">AI</span>
           </span>
           <a
             href="https://www.npmjs.com/package/@ghoststrings/ai"
@@ -231,7 +231,7 @@ function ShowcaseApp() {
 
       {/* Footer copyright */}
       <footer className="border-t border-slate-900/80 py-8 px-6 text-center text-xs text-slate-600 bg-slate-950/40">
-        ✦ GhostStrings Showcase Demo — Powered by @ghoststrings/ai SDK v1.0.1
+        ✦ <GhostText id="app_name" /> Demo — Powered by @ghoststrings/ai SDK v1.0.1
       </footer>
     </div>
   );
