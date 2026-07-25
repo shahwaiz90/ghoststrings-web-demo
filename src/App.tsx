@@ -3,8 +3,8 @@ import { GhostStringsProvider, useGhostStrings, GhostText } from '@ghoststrings/
 
 // Live verification project configurations
 const gsConfig = {
-  projectId: '030d17f9', // Live Showcase Project ID
-  track: 'prod' as const,
+  projectId: 'dk_5c22c59fc93e46e588fecb22', // Live Showcase Project ID (Debug Track)
+  track: 'debug' as const,
   cacheTtl: 0, // Bypass TTL for instant dynamic syncing changes in showcase
   fallbacks: {
     app_name: 'GhostStrings Showcase',
